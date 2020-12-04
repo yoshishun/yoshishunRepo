@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./public/imagas/favicon_volume.png " type="image/vnd.microsoft.icon" /> 
+    <link rel="icon" href="./public/imagas/favicon_volume.png" type="image/vnd.microsoft.icon" />
+
+    <title>index-1</title>
+</head>
+<body>
+    <div>
+        <h1>日付の入力蘭を作成する</h1>
+        <a href="../memorandum_index.html" style="border-bottom: 1px solid rgb(174, 174, 174); display: block; text-align: right;">
+            [備忘録リストへ戻る]
+        </a>
+        
+    </div>
+    <div>
+        <pre>
+        <p><code>&lt;input type="date"&gt;</code>のように、inputタグのtype属性をdateにする。
+これで日付が選択出来るようになる。</p>
+        <input type="date">
+        </pre>
+
+        <pre>
+        <p>ちなみに<code>&lt;input type="date" required&gt;</code>と書いて
+以下の日付を入力せずに「送信」ボタンを押すと注意される。(必須入力になる)</p>
+        <form action="#">
+        <input type="date"required>
+
+                    　<input type="submit" value="送信">
+        </form>
+        </pre>
+    </div>
+    <div style="margin-bottom: 28px;">
+        <h2>参考</h2>
+        <a href="https://code-kitchen.dev/html/input-date/">input type="date"で日付選択の入力欄を作る｜HTMLリファレンス</a>
+    </div>
+    
+    
+</body>
+</html>
